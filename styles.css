@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+}
+
+.page{
+    padding: 30px;
+}
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.word-rotate-desc{
+    height: 22px;
+    display: flex;
+}
+
+.role-job{
+    overflow: hidden;
+}
+
+.role-job span{
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 0.5rem;
+    color: #0e66fc;
+    font-weight: bold;
+    animation: rotate_word 3s infinite;
+}
+
+@keyframes rotate_word{
+    50%{
+        transform: translateY(-140%);
+    }
+    100%{
+        transform: translateY(-280%);
+    }
+}
+
+.profile-photo img{
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#skills h2{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.skill-image img{
+    max-width: 400px;
+}
+
+.rectangle{
+    height: 2px;
+    background-color: white;
+}
