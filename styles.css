@@ -130,6 +130,7 @@ nav a{
 
 .card-container{
     display: flex;
+    justify-content: center;
     margin: auto;
     flex-wrap: wrap;
 }
