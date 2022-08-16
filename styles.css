@@ -139,6 +139,7 @@ nav a{
     margin: 8px;
     position: relative;
     width: 300px;
+    min-width: 300px;
     height: 172px;
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
